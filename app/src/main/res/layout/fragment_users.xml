@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Users"
+    tools:context=".Fragments.Users"
     android:background="#94C6BE">
 
     <TextView android:gravity="center"
@@ -13,6 +13,6 @@
         android:layout_height="match_parent"
         android:textSize="60sp"
         android:textColor="@color/white"
-        android:text="Logs"/>
+        android:text="Users"/>
 
 </FrameLayout>
