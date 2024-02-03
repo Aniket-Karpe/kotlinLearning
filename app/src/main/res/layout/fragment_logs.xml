@@ -1,38 +1,48 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 
-
-<!--<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" -->
-<!--    xmlns:tools="http://schemas.android.com/tools"-->
-<!--    android:layout_width="match_parent" -->
-<!--    android:layout_height="match_parent" -->
-<!--    tools:context=".Page1" -->
-<!--    android:background="#0F9D58">-->
-<!--    &lt;!&ndash;  TODO: Update blank frament layout  &ndash;&gt;-->
-<!--    <TextView android:gravity="center" -->
-<!--        android:textStyle="bold" -->
-<!--        android:layout_width="match_parent" -->
-<!--        android:layout_height="match_parent"-->
-<!--        android:textSize="60sp"-->
-<!--        android:textColor="@color/white"-->
-<!--        android:text="Page 1"/>-->
-<!--</FrameLayout>-->
-
-
-
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Fragments.Logs"
-android:background="#94C6BE">
+    tools:context=".Fragments.Tags"
+    android:background="#94C6BE">
 
-<TextView android:gravity="center"
-    android:textStyle="bold"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:textSize="60sp"
-    android:textColor="@color/white"
-    android:text="Logs"/>
+    <TextView android:gravity="center"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textSize="60sp"
+        android:textColor="@color/white"
+        android:text="Logs"/>
 
 </FrameLayout>
+
+<!--<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    xmlns:tools="http://schemas.android.com/tools"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="match_parent"-->
+<!--    android:orientation="vertical">-->
+
+<!--    <FrameLayout-->
+<!--        android:id="@+id/framelayout"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:background="#94C6BE">-->
+<!--       -->
+
+<!--        &lt;!&ndash; Content inside FrameLayout goes here &ndash;&gt;-->
+
+<!--    </FrameLayout>-->
+
+<!--&lt;!&ndash;    <androidx.recyclerview.widget.RecyclerView&ndash;&gt;-->
+<!--&lt;!&ndash;        android:id="@+id/recycler_view"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:layout_width="match_parent"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:layout_height="match_parent"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:background="#FFFFFF"&ndash;&gt;-->
+
+
+
+<!--&lt;!&ndash;        />&ndash;&gt;-->
+
+<!--</LinearLayout>-->

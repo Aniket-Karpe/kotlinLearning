@@ -21,6 +21,12 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import com.aniket.kotlinlearning.R;
+import com.aniket.kotlinlearning.Webservice.ApiService;
+import com.aniket.kotlinlearning.model.ShowAllTag;
+
+import retrofit2.Call;
+import retrofit2.Retrofit;
+import retrofit2.converter.gson.GsonConverterFactory;
 
 public class Logs extends Fragment {
 
@@ -36,6 +42,9 @@ public class Logs extends Fragment {
         @Override
         public void onCreate(@Nullable Bundle savedInstanceState) {
             super.onCreate(savedInstanceState);
+
+
+
         }
 
         @Nullable
